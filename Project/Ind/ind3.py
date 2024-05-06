@@ -4,7 +4,7 @@
 import os
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     with open("newfile.txt", "w") as data:
         data.write(os.environ.get("NUMBER_OF_PROCESSORS"))
 
